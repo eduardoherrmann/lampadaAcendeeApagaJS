@@ -1,6 +1,6 @@
 const turnOn = document.getElementById ('turnOn');
 const turnOff = document.getElementById ('turnOff');
-const turn = document.getElementById ('turn');
+const turn = document.getElementById ('interruptor');
 const lamp = document.getElementById ('lamp');
 let condicao = 0;
 
@@ -44,3 +44,4 @@ lamp.addEventListener ('mouseover', lampOn);
 lamp.addEventListener('mouseleave', lampOff);
 lamp.addEventListener('dblclick', lampBroken);
 
+ 
